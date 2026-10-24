@@ -10,7 +10,7 @@ Keep each asset in the matching subdirectory and document its destination, namin
 
 ## Fonts
 
-Store reusable font files and generated font sources in `fonts/`.
+Store reusable font files and generated font sources in `fonts/`. See [`fonts/README.md`](fonts/README.md) for the index and each font's source and license.
 
 - Use descriptive names that include the family, weight, size, and format when relevant.
 - Document the source, license, character range, conversion command, and expected destination.
@@ -35,7 +35,7 @@ Store reusable source images and generated display assets in `images/`.
 
 ## Music and sound effects
 
-Store reusable music and sound-effect sources in `music/`.
+Store reusable music and sound-effect sources in `music/`. See [`music/README.md`](music/README.md) for the index and each asset's source and license.
 
 - Document the source, license, sample rate, bit depth, channels, conversion command, and destination.
 - Prefer 16 kHz, 16-bit mono PCM when it matches the current BSP audio path.
